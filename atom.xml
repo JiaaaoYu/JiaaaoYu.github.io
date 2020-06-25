@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jiaaaoyu.github.io</id>
     <title>Chiaao&apos;s Blog</title>
-    <updated>2020-06-25T01:37:09.502Z</updated>
+    <updated>2020-06-25T01:55:06.967Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jiaaaoyu.github.io"/>
     <link rel="self" href="https://jiaaaoyu.github.io/atom.xml"/>
@@ -37,32 +37,32 @@
 <img src="https://jiaaaoyu.github.io/post-images/1593043168142.png" alt="" loading="lazy"><br>
 <strong>我用Gridea搭建的个人博客：</strong> <a href="https://jiaaaoyu.github.io/">Chiaao</a></p>
 <h2 id="如何搭建个人博客">如何搭建个人博客</h2>
-<h3 id="1-github-pages配置">1. Github Pages配置</h3>
-<h4 id="a-新建repository">a. 新建repository</h4>
+<h3 id="github-pages配置">Github Pages配置</h3>
+<h4 id="1-新建repository">1. 新建repository</h4>
 <p>登录github，在右上角加号这里，新建repository(New repository)<br>
 <img src="https://jiaaaoyu.github.io/post-images/1593045930219.png" alt="" loading="lazy"></p>
-<h5 id="b-设置repository">b. 设置repository</h5>
+<h5 id="2-设置repository">2. 设置repository</h5>
 <p>repository设置成username.github.io形式，例如我这里是username：JiaaaoYu，设置成：JiaaaoYu.github.io，Github会开启同名的GitHub Pages：<br>
 <img src="https://jiaaaoyu.github.io/post-images/1593046062204.png" alt="" loading="lazy"><br>
 下一步后确认是否开启，未开启手动操作即可：<br>
 <img src="https://jiaaaoyu.github.io/post-images/1593046318054.png" alt="" loading="lazy"><br>
 登录上面的网址，看是否能打开网站</p>
-<h4 id="c-创建token">c. 创建Token</h4>
+<h4 id="3-创建token">3. 创建Token</h4>
 <p>点击右上角+号，点击setting，然后点击左侧Developer settings<br>
 <img src="https://jiaaaoyu.github.io/post-images/1593046976449.png" alt="" loading="lazy"><br>
 然后点击Personal access tokens，点击Generate new token<br>
 <img src="https://jiaaaoyu.github.io/post-images/1593047253537.png" alt="" loading="lazy"></p>
-<h4 id="d配置token">d.配置Token</h4>
+<h4 id="4-配置token">4. 配置Token</h4>
 <p><img src="https://jiaaaoyu.github.io/post-images/1593047362636.png" alt="" loading="lazy"><br>
 把access tokens这一串字符复制下来，待会儿在配置Gridea的时候会用到<br>
 <img src="https://jiaaaoyu.github.io/post-images/1593047576224.png" alt="" loading="lazy"></p>
-<h3 id="2-gridea配置">2. Gridea配置</h3>
-<h4 id="a-下载gridea">a. 下载Gridea</h4>
+<h3 id="gridea配置">Gridea配置</h3>
+<h4 id="1-下载gridea">1. 下载Gridea</h4>
 <p>下载Gridea <a href="https://gridea.dev/">Gridea</a></p>
-<h4 id="b-配置gridea">b. 配置Gridea</h4>
+<h4 id="2-配置gridea">2. 配置Gridea</h4>
 <p>按下图配置即可<br>
 <img src="https://jiaaaoyu.github.io/post-images/1593048118333.png" alt="" loading="lazy"></p>
-<h4 id="c-配置评论">c. 配置评论</h4>
+<h4 id="3-配置评论">3. 配置评论</h4>
 <p>如果想开启评论的话，回到上面的github设置Developer settings界面<br>
 <img src="https://jiaaaoyu.github.io/post-images/1593048410521.png" alt="" loading="lazy"><br>
 注册并配置OAuth<br>
@@ -71,6 +71,10 @@
 <img src="https://jiaaaoyu.github.io/post-images/1593048746922.png" alt="" loading="lazy"><br>
 至此，所有的配置全部结束，然后点击Gridea左下角同步，待同步成功之后，重新打开网站，界面就变成了Gridea为我们初始化的Blog<br>
 <img src="https://jiaaaoyu.github.io/post-images/1593048838220.png" alt="" loading="lazy"></p>
+<h3 id="写blog">写Blog</h3>
+<p>所有配置完成之后，我们就可以开始自己的Blog之旅了，所有的文章都可以在这里新建和编写，推荐使用markdown格式编写，本文就是通过markdown编写，利用Gridea发布在个人网站上<br>
+<img src="https://jiaaaoyu.github.io/post-images/1593049459348.png" alt="" loading="lazy"></p>
+<p>Gridea的常用操作以及如何使用markdown，在下文继续介绍。</p>
 ]]></content>
     </entry>
 </feed>

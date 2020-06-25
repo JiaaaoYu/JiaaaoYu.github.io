@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jiaaaoyu.github.io</id>
     <title>Chiaao&apos;s Blog</title>
-    <updated>2020-06-25T04:29:11.294Z</updated>
+    <updated>2020-06-25T07:39:33.933Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jiaaaoyu.github.io"/>
     <link rel="self" href="https://jiaaaoyu.github.io/atom.xml"/>
@@ -58,9 +58,9 @@
 <img src="https://jiaaaoyu.github.io/post-images/1593047576224.png" alt="" loading="lazy"></p>
 <h3 id="gridea配置">Gridea配置</h3>
 <h4 id="1-下载gridea">1. 下载Gridea</h4>
-<p>下载Gridea <a href="https://gridea.dev/">Gridea</a></p>
+<p>Gridea 是一个静态博客写作客户端，帮助你更容易地构建并管理博客<a href="https://gridea.dev/">下载Gridea</a></p>
 <h4 id="2-配置gridea">2. 配置Gridea</h4>
-<p>按下图配置即可<br>
+<p>Gridea配置按下图指引配置即可<br>
 <img src="https://jiaaaoyu.github.io/post-images/1593048118333.png" alt="" loading="lazy"></p>
 <h4 id="3-配置评论">3. 配置评论</h4>
 <p>如果想开启评论的话，回到上面的github设置Developer settings界面<br>
@@ -72,9 +72,8 @@
 至此，所有的配置全部结束，然后点击Gridea左下角同步，待同步成功之后，重新打开网站，界面就变成了Gridea为我们初始化的Blog<br>
 <img src="https://jiaaaoyu.github.io/post-images/1593048838220.png" alt="" loading="lazy"></p>
 <h3 id="写blog">写Blog</h3>
-<p>所有配置完成之后，我们就可以开始自己的Blog之旅了，所有的文章都可以在这里新建和编写，推荐使用markdown格式编写，本文就是通过markdown编写，利用Gridea发布在个人网站上<br>
+<p>所有配置完成之后，我们就可以开始自己的Blog之旅了，所有的文章都可以在这里新建和编写，推荐使用markdown格式编写，本文就是通过markdown编写，利用Gridea发布在个人网站上，Gridea的常用操作以及如何使用markdown，后文继续介绍。<br>
 <img src="https://jiaaaoyu.github.io/post-images/1593049459348.png" alt="" loading="lazy"></p>
-<p>Gridea的常用操作以及如何使用markdown，在下文继续介绍。</p>
 ]]></content>
     </entry>
 </feed>

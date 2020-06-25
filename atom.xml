@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jiaaaoyu.github.io</id>
     <title>Chiaao&apos;s Blog</title>
-    <updated>2020-06-24T12:31:57.925Z</updated>
+    <updated>2020-06-25T00:13:59.682Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jiaaaoyu.github.io"/>
     <link rel="self" href="https://jiaaaoyu.github.io/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://jiaaaoyu.github.io/images/avatar.png</logo>
     <icon>https://jiaaaoyu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Chiaao&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[利用Gridea和GitHub Pages快速免费搭建个人博客]]></title>
+        <id>https://jiaaaoyu.github.io/post/li-yong-gridea-github-pages-kuai-su-da-jian-ge-ren-bo-ke/</id>
+        <link href="https://jiaaaoyu.github.io/post/li-yong-gridea-github-pages-kuai-su-da-jian-ge-ren-bo-ke/">
+        </link>
+        <updated>2020-06-24T12:32:29.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="为何要搭建个人博客">为何要搭建个人博客</h3>
+<ol>
+<li>采坑记录：你研究好久才解决的问题，下次遇到相同问题时候，可以快速找到解决方法；别人在遇到同样问题时，也可以参照你的博客快速解决；</li>
+<li>成就感：将自己所学所想，所思所感分享与他人，当自己的博客帮助让他人有所成长时，并获得他们的评论或者点赞，成就感简直爆棚；</li>
+<li>梳理知识体系：写博客是一个长期的积累过程，让你定期复盘并梳理知识结构，不仅对学习有很大帮助，还可以作为一个非常重要的面试加分项；</li>
+<li>锻炼总结和表达能力：能把自己所想准确简练地表达出来，这些软实力在跨部门沟通与协作，向上汇报工作以及在晋升答辩的时候都是非常重要的；</li>
+<li>打造个人影响力：通过写个人博客，帮助他们解决问题并获得认同，在有一定影响力之后，无论在物质还是精神层面都有不错的收获。</li>
+</ol>
+<h3 id="为什么选择gridea和github-pages搭建个人博客">为什么选择Gridea和Github Pages搭建个人博客</h3>
+<p>目前大家常用的几个写博客站点：博客园，CSDN和简书等，这些网站简单易用，有很大的程序员用户群体，但像我这种有轻微强迫症的人，在看到：<br>
+<img src="https://jiaaaoyu.github.io/post-images/1593043875693.png" alt="" loading="lazy"><br>
+<img src="https://jiaaaoyu.github.io/post-images/1593043883856.png" alt="" loading="lazy"><br>
+<img src="https://jiaaaoyu.github.io/post-images/1593043890823.png" alt="" loading="lazy"></p>
+<p>它们之后，这多如牛毛的广告和杂乱的布局让我实在没有写博客并继续维护的欲望；对比来看，我利用Gridea搭建的个人博客，简洁却又不失优雅，配置简单，后续维护更是简单，也让我有了继续更新和维护的欲望：<br>
+<img src="https://jiaaaoyu.github.io/post-images/1593043168142.png" alt="" loading="lazy"></p>
+<h3 id="如何利用gridea和github-pages搭建个人博客">如何利用Gridea和Github Pages搭建个人博客</h3>
+<h4 id="仓库创建">仓库创建</h4>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://jiaaaoyu.github.io/post/hello-gridea/</id>

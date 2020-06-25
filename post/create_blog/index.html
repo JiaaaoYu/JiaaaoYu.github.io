@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>利用Gridea和GitHub Pages快速免费搭建个人博客 | Chiaao&#39;s Blog</title>
-<link rel="shortcut icon" href="https://jiaaaoyu.github.io/favicon.ico?v=1593045651064">
+<link rel="shortcut icon" href="https://jiaaaoyu.github.io/favicon.ico?v=1593048953050">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://jiaaaoyu.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="利用Gridea和GitHub Pages快速免费搭建个人博客 | Chiaao&#39;s Blog - Atom Feed" href="https://jiaaaoyu.github.io/atom.xml">
@@ -25,7 +25,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://jiaaaoyu.github.io">
-  <img class="avatar" src="https://jiaaaoyu.github.io/images/avatar.png?v=1593045651064" alt="">
+  <img class="avatar" src="https://jiaaaoyu.github.io/images/avatar.png?v=1593048953050" alt="">
   </a>
   <h1 class="site-title">
     Chiaao&#39;s Blog
@@ -85,7 +85,7 @@
                 2020-06-25
               </span>
               <span>
-                2 min read
+                3 min read
               </span>
               
             </div>
@@ -96,7 +96,7 @@
               <div class="post-content">
                 <p>本文介绍如何利用Gridea和Github Pages快速搭建属于自己的个人博客，配置简单，操作方便，维护轻松，界面简洁却又不失优雅，更没有像CSDN，简书和博客园那样的牛皮癣广告。</p>
 <!-- more -->
-<h3 id="为何搭建个人博客">为何搭建个人博客</h3>
+<h2 id="为何搭建个人博客">为何搭建个人博客</h2>
 <ol>
 <li>采坑记录：你研究好久才解决的问题，下次遇到相同问题时候，可以快速找到解决方法；别人在遇到同样问题时，也可以参照你的博客快速解决；</li>
 <li>成就感：将自己所学所想，所思所感分享与他人，当自己的博客帮助让他人有所成长时，并获得他们的评论或者点赞，成就感简直爆棚；</li>
@@ -104,7 +104,7 @@
 <li>锻炼总结和表达能力：能把自己所想准确简练地表达出来，这些软实力在跨部门沟通与协作，向上汇报工作以及在晋升答辩的时候都是非常重要的；</li>
 <li>打造个人影响力：通过写个人博客，帮助他们解决问题并获得认同，在有一定影响力之后，无论在物质还是精神层面都有不错的收获。</li>
 </ol>
-<h3 id="为何选择gridea">为何选择Gridea</h3>
+<h2 id="为何选择gridea">为何选择Gridea</h2>
 <p>目前大家常用的几个写博客站点：博客园，CSDN和简书等，这些网站简单易用，有很大的程序员用户群体，但像我这种有轻微强迫症的人，在看到：<br>
 <img src="https://jiaaaoyu.github.io/post-images/1593043875693.png" alt="" loading="lazy"><br>
 <img src="https://jiaaaoyu.github.io/post-images/1593043883856.png" alt="" loading="lazy"><br>
@@ -112,21 +112,67 @@
 <p>它们之后，这多如牛毛的广告和杂乱的布局让我实在没有写博客并继续维护的欲望；对比来看，我利用Gridea搭建的个人博客，简洁却又不失优雅，配置简单，后续维护更是简单，也让我有了继续更新和维护的欲望：<br>
 <img src="https://jiaaaoyu.github.io/post-images/1593043168142.png" alt="" loading="lazy"><br>
 <strong>我用Gridea搭建的个人博客：</strong> <a href="https://jiaaaoyu.github.io/">Chiaao</a></p>
-<h3 id="如何搭建个人博客">如何搭建个人博客</h3>
-<h4 id="仓库创建">仓库创建</h4>
+<h2 id="如何搭建个人博客">如何搭建个人博客</h2>
+<h3 id="1-github-pages配置">1. Github Pages配置</h3>
+<h4 id="a-新建repository">a. 新建repository</h4>
+<p>登录github，在右上角加号这里，新建repository(New repository)<br>
+<img src="https://jiaaaoyu.github.io/post-images/1593045930219.png" alt="" loading="lazy"></p>
+<h5 id="b-设置repository">b. 设置repository</h5>
+<p>repository设置成username.github.io形式，例如我这里是username：JiaaaoYu，设置成：JiaaaoYu.github.io，Github会开启同名的GitHub Pages：<br>
+<img src="https://jiaaaoyu.github.io/post-images/1593046062204.png" alt="" loading="lazy"><br>
+下一步后确认是否开启，未开启手动操作即可：<br>
+<img src="https://jiaaaoyu.github.io/post-images/1593046318054.png" alt="" loading="lazy"><br>
+登录上面的网址，看是否能打开网站</p>
+<h4 id="c-创建token">c. 创建Token</h4>
+<p>点击右上角+号，点击setting，然后点击左侧Developer settings<br>
+<img src="https://jiaaaoyu.github.io/post-images/1593046976449.png" alt="" loading="lazy"><br>
+然后点击Personal access tokens，点击Generate new token<br>
+<img src="https://jiaaaoyu.github.io/post-images/1593047253537.png" alt="" loading="lazy"></p>
+<h4 id="d配置token">d.配置Token</h4>
+<p><img src="https://jiaaaoyu.github.io/post-images/1593047362636.png" alt="" loading="lazy"><br>
+把access tokens这一串字符复制下来，待会儿在配置Gridea的时候会用到<br>
+<img src="https://jiaaaoyu.github.io/post-images/1593047576224.png" alt="" loading="lazy"></p>
+<h3 id="2-gridea配置">2. Gridea配置</h3>
+<h4 id="a-下载gridea">a. 下载Gridea</h4>
+<p>下载Gridea <a href="https://gridea.dev/">Gridea</a></p>
+<h4 id="b-配置gridea">b. 配置Gridea</h4>
+<p>按下图配置即可<br>
+<img src="https://jiaaaoyu.github.io/post-images/1593048118333.png" alt="" loading="lazy"></p>
+<h4 id="c-配置评论">c. 配置评论</h4>
+<p>如果想开启评论的话，回到上面的github设置Developer settings界面<br>
+<img src="https://jiaaaoyu.github.io/post-images/1593048410521.png" alt="" loading="lazy"><br>
+注册并配置OAuth<br>
+<img src="https://jiaaaoyu.github.io/post-images/1593048519383.png" alt="" loading="lazy"><br>
+回到Gridea，填写Client ID，Client Secret<br>
+<img src="https://jiaaaoyu.github.io/post-images/1593048746922.png" alt="" loading="lazy"><br>
+至此，所有的配置全部结束，然后点击Gridea左下角同步，待同步成功之后，重新打开网站，界面就变成了Gridea为我们初始化的Blog<br>
+<img src="https://jiaaaoyu.github.io/post-images/1593048838220.png" alt="" loading="lazy"></p>
 
               </div>
               <div class="toc-container">
                 <ul class="markdownIt-TOC">
 <li>
 <ul>
-<li>
-<ul>
 <li><a href="#%E4%B8%BA%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2">为何搭建个人博客</a></li>
 <li><a href="#%E4%B8%BA%E4%BD%95%E9%80%89%E6%8B%A9gridea">为何选择Gridea</a></li>
 <li><a href="#%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2">如何搭建个人博客</a>
 <ul>
-<li><a href="#%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA">仓库创建</a></li>
+<li><a href="#1-github-pages%E9%85%8D%E7%BD%AE">1. Github Pages配置</a>
+<ul>
+<li><a href="#a-%E6%96%B0%E5%BB%BArepository">a. 新建repository</a>
+<ul>
+<li><a href="#b-%E8%AE%BE%E7%BD%AErepository">b. 设置repository</a></li>
+</ul>
+</li>
+<li><a href="#c-%E5%88%9B%E5%BB%BAtoken">c. 创建Token</a></li>
+<li><a href="#d%E9%85%8D%E7%BD%AEtoken">d.配置Token</a></li>
+</ul>
+</li>
+<li><a href="#2-gridea%E9%85%8D%E7%BD%AE">2. Gridea配置</a>
+<ul>
+<li><a href="#a-%E4%B8%8B%E8%BD%BDgridea">a. 下载Gridea</a></li>
+<li><a href="#b-%E9%85%8D%E7%BD%AEgridea">b. 配置Gridea</a></li>
+<li><a href="#c-%E9%85%8D%E7%BD%AE%E8%AF%84%E8%AE%BA">c. 配置评论</a></li>
 </ul>
 </li>
 </ul>
